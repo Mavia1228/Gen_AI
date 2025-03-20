@@ -1,0 +1,9 @@
+Day 1 
+ctrl+\ for commenting
+python -v
+python --version
+first case = name
+pascal case = Name
+snack case = Name_name
+number case = name1
+name-name -> name name (hifn is treated as space in python)

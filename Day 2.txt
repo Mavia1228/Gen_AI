@@ -1,0 +1,6 @@
+Day 2 
+Data Types:
+string, int, float, binary, list, tuple, set, dictionary, byte
+i = b"Hello World" -> datatype(Byte)
+
+search -> edit system environment -> environment variables -> path -> edit -> select desired environment
