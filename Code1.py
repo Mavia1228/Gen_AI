@@ -145,8 +145,8 @@
 # fun()
 
 # ANONYMOUS FUNCTIONS
-x = lambda a,b:a**b
-print(x(5,2))
+# x = lambda a,b:a**b
+# print(x(5,2))
 
 # EXCEPTION HANDELING
 # x = 3
@@ -156,3 +156,15 @@ print(x(5,2))
 #     print("Error : Variale is not defined. Line 145")
 # finally:
 #     print("This is always executed. It means try or except is executed")
+
+def fun(city):
+    ls = ["Lahore","Sadiqabad","Multan","Karachi","Pishawar"]
+    # for x in ls:
+    #     if (city == x): print("City is Clean")
+    print([x for x in ls if city in x])
+    print(" Is Clean")
+
+
+
+city = input("Enter Any City : ")
+fun(city)
