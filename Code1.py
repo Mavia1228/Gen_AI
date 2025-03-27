@@ -26,25 +26,16 @@
 #ls2 = [x[0].upper() + x[1:] for x in ls]
 
 
+# TUPLE
 # tup = ("hello",)
-
 # tp = tuple(("hello",))
-
 # ls = list((tp))
-
 # ls.append("guru99")
 # print(ls)
 # tup = tuple((ls))
 # print(tup)
 
 
-
-
-# print(type(tp))
-
-
-# print(type(tup))
-# print(type(tup))
 # print(tup[1])
 # print(tup[0:-1])
 
@@ -70,7 +61,7 @@
 # (tup1,tup2,*tup3) = tup
 # print(tup3)
 
-# Sets
+# SETS
 # st = {"Mavia","Hamza","Huzaifa"}
 # st2 = set((7,4,8,10)) 
 # st2.add(20)
@@ -93,7 +84,7 @@
 # tp = tuple(ls)
 # print(tp)
 
-# Tuple Practic 1
+# Tuple Practic 2
 # ls = ["Mavia",'Hamza','Saad']
 # tp = ('Hamza','Nisar','Shaan')
 # st1 = set(ls)
@@ -106,19 +97,62 @@
 # st4 = st1.difference(st2) # st1 - st2
 # print("Difference is " , st4)
 
-# Tuple Practic 1
+# Tuple Practic 3
 # tp = tuple((1,2,3,4,5,6,7,8,9,10))
 # (v1,v2,v3,v4,v5,v6,v7,v8,*v9) = tp
 # v9.append(11)
 # st = set(v9)
 # print(st)
 
-# Dictionary
-#dic = {"name": "Mavia" , "Age": 25, "Height": 5.7}
-dic = dict({"Name": "Mavia" , "Age": 25, "Height": 5.7})
-dic["Address"] = "XYZ"
-dic.update({"Address" : "xyz","Alpha" : 1.99})
-dic.pop("Address")
-dic.popitem()
-print(dic)
-print(dic.keys())
+# DICTIONARY
+# dic = {"name": "Mavia" , "Age": 25, "Height": 5.7}
+# dic = dict({"Name": "Mavia" , "Age": 25, "Height": 5.7})
+# dic["Address"] = "XYZ"
+# dic.update({"Address" : "xyz","Alpha" : 1.99})
+# dic.pop("Address")
+# dic.popitem()
+# print(dic)
+# print(dic.items()gbn n,.d0)
+# print(dic.keys())
+# print(dic.values())
+
+# Pass  by value & Padd by refrence
+# Non-Premitive data types(list,tuple,set,dictionaries) and Premitive data type
+
+# Dic Practic 1
+# dic = {"st1":{"Name":"Mavia","Age":25},"st2":{"Name":"Hamza","Age":21},"st3":{"Name":"Saad","Age":23}}
+# dic.update({"st3":{"Name":"Saad","Age":24}})
+# dic.update({"st4":{"Name":"Shaan","Age":30}})
+# #print(dic.values())
+# del dic["st3"]["Age"]
+# for x in dic:
+#     print(dic[x].values())
+
+#kivi android apps
+#tkinter5
+
+# REGULAR FUNCTIONS
+# def fun(**krgs): # Arbitorary Keywords Arrguments
+#     print(krgs["name"] + " " + str(krgs["age"]))
+# fun(name = "Mavia" , age = 25)
+
+# def fun1(*krgs): # Arbitorary Arrguments
+#     print(krgs[0] + " " + str(krgs[1]))
+# fun1("Mavia",25)
+
+# def fun():
+#     pass
+# fun()
+
+# ANONYMOUS FUNCTIONS
+x = lambda a,b:a**b
+print(x(5,2))
+
+# EXCEPTION HANDELING
+# x = 3
+# try:
+#     print(y)
+# except:
+#     print("Error : Variale is not defined. Line 145")
+# finally:
+#     print("This is always executed. It means try or except is executed")
